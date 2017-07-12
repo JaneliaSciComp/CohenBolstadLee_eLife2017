@@ -1,0 +1,7 @@
+LIBRARY treadmill
+EXPORTS
+	initializeAdaptor	@1
+	getAvailHW			@2
+	uninitializeAdaptor	@3
+	getDeviceAttributes	@4
+	createInstance		@5

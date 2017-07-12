@@ -1,0 +1,53 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+x                                                                 01C8h        2
+y                                                                 01CAh        2
+motion                                                            01CCh        2
+squal                                                             01CEh        2
+shut_low                                                          01D0h        2
+shut_high                                                         01D2h        2
+t_buffer                                                          01D4h      900
+r_buffer                                                          0558h      900
+vTarget                                                           08DCh        1
+vidTime                                                           08DDh        1
+vidFlag                                                           08DEh        1
+Vf                                                                08DFh        1
+Vs                                                                08E0h        1
+Om                                                                08E1h        1
+SampleCount                                                       08E2h        1
+reportState                                                       08E3h        1
+time_ms                                                           08E4h        2
+serialTimeout                                                     08E6h        2
+t_index                                                           08E8h        2
+t_length                                                          08EAh        2
+r_index                                                           08ECh        2
+binTime                                                           08EEh        1
+binTarget                                                         08EFh        1
+bin0x                                                             08F0h        1
+bin0y                                                             08F1h        1
+bin1x                                                             08F2h        1
+bin1y                                                             08F3h        1
+binScale                                                          08F4h        1
+bin0xc                                                            08F5h        1
+bin0yc                                                            08F6h        1
+bin1xc                                                            08F7h        1
+bin1yc                                                            08F8h        1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+tick                                                              R5           1
+ADNS                                                              R4           1
+gTemp                                                             R7           1
+gTemp2                                                            R6           1
+ADNS0                                                             R9           1
+ADNS1                                                             R8           1
+sstate                                                            R11          1
+r_char                                                            R10          1
+serialFlag                                                        R13          1
+t_char                                                            R12          1
