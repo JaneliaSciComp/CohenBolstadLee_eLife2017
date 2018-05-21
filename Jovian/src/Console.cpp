@@ -1548,10 +1548,6 @@ Console::start_viewer()
     {
         _viewer->load_image( _image_file );
         _viewer->home();
-        MovieEventHandler* meh = new MovieEventHandler();
-        meh->set( _viewer->getSceneData() );
-        _viewer->addEventHandler( meh );
-
     }
     else
     {
